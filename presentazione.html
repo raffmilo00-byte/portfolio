@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Presentazione portfolio — Milo Raffaele</title>
+  <style>
+    @page { size: A4; margin: 18mm; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      color: #1a1d26;
+      line-height: 1.5;
+      max-width: 210mm;
+      margin: 0 auto;
+      padding: 12mm;
+    }
+    .slide {
+      page-break-after: always;
+      min-height: 250mm;
+      padding-bottom: 8mm;
+    }
+    .slide:last-child { page-break-after: auto; }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 0.5rem;
+      color: #2563eb;
+    }
+    h2 {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #2563eb;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 0.3rem;
+      margin: 0 0 1rem;
+    }
+    .subtitle { font-size: 1.15rem; color: #4a5568; margin-bottom: 2rem; }
+    .num { font-size: 3rem; font-weight: 800; color: #dbeafe; float: right; line-height: 1; }
+    p { margin: 0 0 0.75rem; text-align: justify; }
+    ul { margin: 0.5rem 0 1rem; padding-left: 1.2rem; }
+    .links {
+      background: #eff6ff;
+      border-left: 4px solid #2563eb;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+    }
+    .links a { color: #2563eb; word-break: break-all; }
+    .thanks { text-align: center; margin-top: 3rem; font-size: 1.5rem; font-weight: 700; color: #2563eb; }
+    @media print {
+      body { padding: 0; }
+      .no-print { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <p class="no-print" style="background:#fff3cd;padding:0.75rem;border-radius:8px;">
+    <strong>Salva come PDF:</strong> Ctrl+P → “Salva come PDF” → sostituisci il file
+    <em>Progetto HTML e CSS di Raffaele Milo.pdf</em> nella cartella di consegna.
+  </p>
+
+  <section class="slide">
+    <p class="num">01</p>
+    <h1>Progetto Web HTML &amp; CSS</h1>
+    <p class="subtitle">Portfolio personale — Milo Raffaele · Start2Impact</p>
+    <h2>Presentazione del progetto</h2>
+    <p>
+      Consegna: sito portfolio in <strong>solo HTML e CSS</strong>, pubblicato su <strong>GitHub Pages</strong>,
+      con README e relazione sulle scelte progettuali.
+    </p>
+    <div class="links">
+      <p><strong>Sito online:</strong><br />
+        <a href="https://raffmilo00-byte.github.io/il-mio-porfolio/">https://raffmilo00-byte.github.io/il-mio-porfolio/</a></p>
+      <p><strong>Repository GitHub:</strong><br />
+        <a href="https://github.com/raffmilo00-byte/il-mio-porfolio">https://github.com/raffmilo00-byte/il-mio-porfolio</a></p>
+    </div>
+  </section>
+
+  <section class="slide">
+    <p class="num">02</p>
+    <h2>Tecnologie utilizzate</h2>
+    <ul>
+      <li><strong>HTML</strong> — struttura semantica, sezioni, form accessibile, meta tag Open Graph.</li>
+      <li><strong>CSS</strong> — layout responsive (Grid/Flexbox), variabili, tema scuro, tipografia fluida.</li>
+      <li><strong>JavaScript (minimo)</strong> — anno nel footer; form contatti (EmailJS opzionale o mailto).</li>
+    </ul>
+    <p>Nessun framework: dimostrazione delle competenze di base richieste dal modulo.</p>
+  </section>
+
+  <section class="slide">
+    <p class="num">03</p>
+    <h2>Obiettivo e pubblico</h2>
+    <p>
+      Il portfolio presenta il mio profilo a <strong>aziende che formano junior web developer</strong>,
+      valorizzando anche l’esperienza in assistenza clienti e reti Wi-Fi (Wirlab, dal 10 dicembre 2024).
+      Il messaggio è chiaro: studio con Start2Impact, lavoro in ambito tech/supporto e punto a crescere verso l’<strong>AI Engineering</strong>.
+    </p>
+    <p>
+      Struttura <strong>one-page</strong> con navigazione ancorata: hero → chi sono → cosa cerco → competenze → progetti → contatti.
+      CV separato in <code>cv.html</code> per chi vuole il formato stampabile.
+    </p>
+  </section>
+
+  <section class="slide">
+    <p class="num">04</p>
+    <h2>Scelte di design e contenuto</h2>
+    <p>
+      <strong>Tema scuro</strong> e accenti ciano/viola per un look tech moderno; sezioni alternate per scandire la lettura.
+      Foto professionale in hero per umanizzare il profilo; card Wirlab per credibilità lavorativa.
+    </p>
+    <p>
+      Competenze a “chip” (HTML, CSS, JS, reti Wi-Fi, inglese buono). Progetti <strong>Demetra</strong> e <strong>GreenEarth</strong>
+      in cartella <code>progetti/</code> per mostrare progressione. Form contatti senza email in chiaro (anti-spam) e checkbox privacy.
+    </p>
+  </section>
+
+  <section class="slide">
+    <p class="num">05</p>
+    <h2>Accessibilità e pubblicazione</h2>
+    <p>
+      Skip-link, etichette ARIA, focus visibile sui campi, <code>lang="it"</code>, immagini con <code>alt</code>.
+      Repository ordinato: <strong>solo il portfolio</strong> alla radice del repo (non cartelle cv/pagina web separate).
+    </p>
+    <p>
+      Pubblicazione tramite <strong>GitHub Pages</strong> (branch <code>main</code>, cartella root).
+      File <code>.nojekyll</code> per servire correttamente i file statici.
+    </p>
+    <div class="links">
+      <p><strong>Visita il sito:</strong>
+        <a href="https://raffmilo00-byte.github.io/il-mio-porfolio/PORTFOLIO.html">raffmilo00-byte.github.io/il-mio-porfolio/PORTFOLIO.html</a></p>
+    </div>
+  </section>
+
+  <section class="slide">
+    <p class="num">06</p>
+    <h2>Link e ringraziamenti</h2>
+    <div class="links">
+      <p><strong>GitHub (repository progetto):</strong><br />
+        <a href="https://github.com/raffmilo00-byte/il-mio-porfolio">github.com/raffmilo00-byte/il-mio-porfolio</a></p>
+      <p><strong>Sito web pubblicato:</strong><br />
+        <a href="https://raffmilo00-byte.github.io/il-mio-porfolio/">raffmilo00-byte.github.io/il-mio-porfolio/</a></p>
+      <p><strong>Profilo GitHub:</strong><br />
+        <a href="https://github.com/raffmilo00-byte">github.com/raffmilo00-byte</a></p>
+    </div>
+    <p class="thanks">Grazie per la valutazione!</p>
+    <p style="text-align:center;color:#64748b;">Milo Raffaele · 2026</p>
+  </section>
+</body>
+</html>
