@@ -7,7 +7,7 @@
 | Risorsa | Link |
 |--------|------|
 | **Sito web** | [https://raffmilo00-byte.github.io/il-mio-porfolio/](https://raffmilo00-byte.github.io/portfolio/PORTFOLIO.html) |
-| **Pagina principale** | https://raffmilo00-byte.github.io/il-mio-porfolio/PORTFOLIO.html |
+| **Pagina principale**| (https://github.com/raffmilo00-byte) |
 | **Curriculum Vitae** | [https://raffmilo00-byte.github.io/il-mio-porfolio/cv.html ](https://raffmilo00-byte.github.io/portfolio/cv.html)|
 | **Repository GitHub** | [https://github.com/raffmilo00-byte/il-mio-porfolio ](https://github.com/raffmilo00-byte/portfolio)|
 
