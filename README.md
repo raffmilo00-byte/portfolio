@@ -9,7 +9,7 @@
 | **Sito web** | [https://raffmilo00-byte.github.io/il-mio-porfolio/](https://raffmilo00-byte.github.io/portfolio/PORTFOLIO.html) |
 | **Pagina principale** | https://raffmilo00-byte.github.io/il-mio-porfolio/PORTFOLIO.html |
 | **Curriculum Vitae** | [https://raffmilo00-byte.github.io/il-mio-porfolio/cv.html ](https://raffmilo00-byte.github.io/portfolio/cv.html)|
-| **Repository GitHub** | https://github.com/raffmilo00-byte/il-mio-porfolio |
+| **Repository GitHub** | [https://github.com/raffmilo00-byte/il-mio-porfolio ](https://github.com/raffmilo00-byte/portfolio)|
 
 > Apri il link del **sito web** per visualizzare il progetto finale. `index.html` reindirizza automaticamente al portfolio.
 
