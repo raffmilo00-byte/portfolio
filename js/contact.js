@@ -1,5 +1,5 @@
 (function () {
-  const form = document.getElementById("contact-form");
+  const form = document.getElementById("contactForm");
   const statusEl = document.getElementById("form-status");
   if (!form || !statusEl) return;
 
@@ -13,10 +13,10 @@
   }
 
   function buildMailto() {
-    const nome = form.nome.value.trim();
+    const name = form.nome.value.trim();
     const email = form.email.value.trim();
-    const oggetto = form.oggetto.value.trim();
-    const messaggio = form.messaggio.value.trim();
+    const subject = form.oggetto.value.trim();
+    const messagge = form.messaggio.value.trim();
     const subject = encodeURIComponent(oggetto || "Contatto dal portfolio");
     const body = encodeURIComponent(
       `Nome: ${nome}\nEmail: ${email}\n\n${messaggio}`
