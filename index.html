@@ -1,14 +1,200 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="https://base44.com/logo_v2.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="manifest" href="/manifest.json" />
-    <title>PORFOLIO MILO RAFFAELE</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Milo Raffaele | Sviluppo web</title>
+  <meta name="description" content="Portfolio di Milo Raffaele: assistente reti Wi-Fi (Wirlab), studente Web Development (Start2Impact). HTML e CSS. Obiettivo AI Engineer." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://raffmilo00-byte.github.io/il-mio-porfolio/" />
+  <meta property="og:title" content="Milo Raffaele — Portfolio Web Development" />
+  <meta property="og:description" content="Junior in formazione: Wirlab, Start2Impact, progetti HTML/CSS. Obiettivo AI Engineer." />
+  <meta property="og:image" content="https://raffmilo00-byte.github.io/il-mio-porfolio/assets/img/ME.png.jpeg" />
+  <meta property="og:locale" content="it_IT" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Milo Raffaele — Portfolio Web Development" />
+  <meta name="twitter:description" content="Junior in formazione: Wirlab, Start2Impact, progetti HTML/CSS. Obiettivo AI Engineer." />
+
+  <link rel="canonical" href="https://raffmilo00-byte.github.io/il-mio-porfolio/" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/jpeg" href="assets/img/favicon.jpg" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Salta al contenuto</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="index.html" class="logo">Milo Raffaele</a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Apri menu">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav" id="mainNav" aria-label="Navigazione principale">
+        <a href="#chi-sono">Chi sono</a>
+        <a href="#competenze">Competenze</a>
+        <a href="#progetti">Progetti</a>
+        <a href="#contatti">Contatti</a>
+        <a href="cv.html" class="btn btn--small">Scarica CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero section">
+      <div class="wrap hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Junior Web Developer</p>
+          <h1>Ciao, sono<br>Milo Raffaele</h1>
+          <p class="lead">Studente Web Development @ Start2Impact · Assistente reti Wi-Fi @ Wirlab · Obiettivo: AI Engineer</p>
+          <div class="hero-cta">
+            <a href="#progetti" class="btn">Vedi i progetti</a>
+            <a href="#contatti" class="btn btn--ghost">Contattami</a>
+          </div>
+          <ul class="social">
+            <li><a href="https://github.com/raffmilo00-byte" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/raffaele-milo" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/img/ME.png.jpeg" alt="Ritratto professionale di Milo Raffaele" width="420" height="560" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="chi-sono">
+      <div class="wrap">
+        <h2>Chi sono</h2>
+        <p class="section-intro">Mi chiamo Milo Raffaele, ho 25 anni, vivo a Sant'Antonio Abate (NA). Lavoro come assistente reti Wi-Fi da remoto per Wirlab e studio Web Development con Start2Impact. Il mio obiettivo a lungo termine è diventare AI Engineer.</p>
+        <div class="two-col">
+          <div>
+            <h3>La mia storia</h3>
+            <p>Ho iniziato con HTML e CSS nel percorso Start2Impact, sviluppando progetti reali come questo portfolio, un brand di scarpe sostenibili (Demetra) e una landing page per GreenEarth. Amo costruire cose dal nulla con la logica e la creatività.</p>
+          </div>
+          <div class="card">
+            <h3>Soft skills</h3>
+            <ul class="traits">
+              <li>Problem solving</li>
+              <li>Comunicazione chiara</li>
+              <li>Lavoro in remoto</li>
+              <li>Apprendimento continuo</li>
+              <li>Attenzione al dettaglio</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="competenze">
+      <div class="wrap">
+        <h2>Competenze</h2>
+        <p class="section-intro">Le tecnologie e gli strumenti con cui lavoro oggi, in continua espansione.</p>
+        <ul class="skills">
+          <li>HTML5 semantico</li>
+          <li>CSS3 (Flexbox, Grid)</li>
+          <li>Media Query</li>
+          <li>Accessibilità web</li>
+          <li>Git &amp; GitHub</li>
+          <li>GitHub Pages</li>
+          <li>Responsive design</li>
+          <li>JavaScript (base)</li>
+          <li>VS Code</li>
+        </ul>
+        <p class="muted" style="margin-top:1.5rem">In apprendimento: JavaScript avanzato, Python, Machine Learning</p>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="progetti">
+      <div class="wrap">
+        <h2>Progetti</h2>
+        <p class="section-intro">Progetti reali realizzati durante il percorso Start2Impact.</p>
+        <div class="grid projects">
+
+          <article class="project-card">
+            <img src="assets/img/1.png" alt="Screenshot del portfolio di Milo Raffaele" />
+            <div class="project-card__body">
+              <h3>Portfolio personale</h3>
+              <p>Questo sito: portfolio one-page con design dark, accessibilità, CSS custom e form contatti.</p>
+              <a href="https://github.com/raffmilo00-byte/il-mio-porfolio" class="fake-link" target="_blank" rel="noopener">Vedi su GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/img/1.png" alt="Logo Demetra — scarpe sostenibili" />
+            <div class="project-card__body">
+              <h3>Demetra — Scarpe Sostenibili</h3>
+              <p>Brand concept di scarpe eco-friendly: landing page, identità visiva, CSS animazioni.</p>
+              <a href="progetti/demetra/demetra.html" class="fake-link">Vedi progetto →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/img/greenearth.png" alt="Logo GreenEarth" />
+            <div class="project-card__body">
+              <h3>GreenEarth</h3>
+              <p>Landing page per startup ambientale: hero, sezione progetti, form contatti, layout responsive.</p>
+              <a href="progetti/greenearth/pagina.html" class="fake-link">Vedi progetto →</a>
+            </div>
+          </article>
+
+        </div>
+        <p class="center"><a href="https://github.com/raffmilo00-byte" class="btn btn--ghost" target="_blank" rel="noopener">Tutti i repository →</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="contatti">
+      <div class="wrap">
+        <h2>Contatti</h2>
+        <p class="section-intro">Vuoi collaborare, fare una proposta o semplicemente salutare? Scrivimi.</p>
+        <form class="form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Nome <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required />
+          </div>
+          <div class="field">
+            <label for="subject">Oggetto</label>
+            <input type="text" id="subject" name="subject" />
+          </div>
+          <div class="field">
+            <label for="message">Messaggio <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="field field--checkbox">
+            <input type="checkbox" id="privacy" name="privacy" required />
+            <label for="privacy">Ho letto l'<a href="privacy.html">informativa privacy</a> <span class="req" aria-hidden="true">*</span></label>
+          </div>
+          <button type="submit" class="btn">Invia messaggio</button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© 2025 Milo Raffaele — <a href="privacy.html">Privacy</a> · <a href="cv.html">Curriculum Vitae</a></p>
+    </div>
+  </footer>
+
+  <script src="js/contact.js"></script>
+  <script>
+    // Menu hamburger
+    const toggle = document.getElementById('navToggle');
+    const nav = document.getElementById('mainNav');
+    toggle.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('nav--open');
+      toggle.setAttribute('aria-expanded', isOpen);
+    });
+  </script>
+</body>
 </html>
