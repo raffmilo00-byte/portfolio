@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Presentazione portfolio — Milo Raffaele</title>
+  <meta name="description" content="Presentazione del portfolio di Milo Raffaele: scelte di design, struttura e tecnologie usate nel progetto Start2Impact." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://raffmilo00-byte.github.io/il-mio-porfolio/presentazione.html" />
+  <meta property="og:title" content="Presentazione portfolio — Milo Raffaele" />
+  <meta property="og:description" content="Presentazione del portfolio di Milo Raffaele: scelte di design, struttura e tecnologie usate nel progetto Start2Impact." />
+  <meta property="og:image" content="https://raffmilo00-byte.github.io/il-mio-porfolio/assets/img/ME.png.jpeg" />
+  <meta property="og:locale" content="it_IT" />
+
+  <style>
+    @page { size: A4; margin: 18mm; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      color: #1a1d26;
+      line-height: 1.5;
+      max-width: 210mm;
+      margin: 0 auto;
+      padding: 12mm;
+    }
+    .slide {
+      page-break-after: always;
+      min-height: 250mm;
+      padding-bottom: 8mm;
+    }
+    .slide:last-child { page-break-after: auto; }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 0.5rem;
+      color: #2563eb;
+    }
+    h2 {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #2563eb;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 0.3rem;
+      margin: 0 0 1rem;
+    }
+    .subtitle { font-size: 1.15rem; color: #4a5568; margin-bottom: 2rem; }
+    .num { font-size: 3rem; font-weight: 800; color: #2563eb; line-height: 1; }
+    .kpi { display: flex; gap: 2rem; margin: 1.5rem 0; }
+    .kpi-item { text-align: center; }
+    .kpi-label { font-size: 0.9rem; color: #4a5568; margin-top: 0.25rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.4rem; }
+    .tag {
+      display: inline-block;
+      background: #eff6ff;
+      color: #2563eb;
+      border: 1px solid #bfdbfe;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      margin: 0.2rem;
+    }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+    th, td { text-align: left; padding: 0.5rem 0.75rem; border-bottom: 1px solid #e2e8f0; font-size: 0.95rem; }
+    th { background: #f8fafc; font-weight: 600; }
+    .back { margin-top: 2rem; font-size: 0.9rem; }
+    .back a { color: #2563eb; }
+    @media print { .back { display: none; } }
+  </style>
+</head>
+<body>
+
+  <main>
+
+    <section class="slide">
+      <h1>Portfolio — Milo Raffaele</h1>
+      <p class="subtitle">Progetto di consegna · Web Development · Start2Impact</p>
+      <h2>Panoramica</h2>
+      <p>Portfolio personale one-page realizzato interamente con HTML5 e CSS3 (nessun framework). Obiettivo: presentarmi ad aziende e recruiter come junior in sviluppo web.</p>
+      <div class="kpi">
+        <div class="kpi-item"><div class="num">5</div><div class="kpi-label">Pagine HTML</div></div>
+        <div class="kpi-item"><div class="num">2</div><div class="kpi-label">File CSS</div></div>
+        <div class="kpi-item"><div class="num">3</div><div class="kpi-label">Progetti inclusi</div></div>
+        <div class="kpi-item"><div class="num">0</div><div class="kpi-label">Framework usati</div></div>
+      </div>
+      <p>Sito live: <a href="https://raffmilo00-byte.github.io/il-mio-porfolio/">raffmilo00-byte.github.io/il-mio-porfolio/</a></p>
+    </section>
+
+    <section class="slide">
+      <h2>Scelte di design</h2>
+      <ul>
+        <li><strong>Tema dark</strong> — palette scura (#0f1115) con accenti ciano e viola per leggibilità e modernità</li>
+        <li><strong>Tipografia system-ui</strong> — font di sistema per performance e coerenza cross-device</li>
+        <li><strong>Layout CSS Grid + Flexbox</strong> — nessun framework, tutto scritto a mano</li>
+        <li><strong>Sticky header</strong> con backdrop-filter blur per effetto glassmorphism leggero</li>
+        <li><strong>Menu hamburger mobile</strong> — navigazione ottimizzata per smartphone</li>
+        <li><strong>Bottoni pill</strong> con gradiente accent per gerarchia visiva chiara</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Tecnologie e strumenti</h2>
+      <div>
+        <span class="tag">HTML5 semantico</span>
+        <span class="tag">CSS3</span>
+        <span class="tag">Flexbox</span>
+        <span class="tag">CSS Grid</span>
+        <span class="tag">Media Query</span>
+        <span class="tag">CSS Variables</span>
+        <span class="tag">JavaScript (menu)</span>
+        <span class="tag">Git</span>
+        <span class="tag">GitHub Pages</span>
+        <span class="tag">VS Code</span>
+      </div>
+      <h2 style="margin-top:1.5rem">Accessibilità</h2>
+      <ul>
+        <li>Skip link "Salta al contenuto"</li>
+        <li>Landmark HTML: <code>header</code>, <code>main</code>, <code>footer</code>, <code>nav</code></li>
+        <li>Attributi <code>aria-label</code> e <code>aria-expanded</code> sul menu</li>
+        <li>Contrasto colori WCAG AA</li>
+        <li>Form con label associati correttamente</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Struttura file</h2>
+      <table>
+        <tr><th>File/Cartella</th><th>Descrizione</th></tr>
+        <tr><td>index.html</td><td>Homepage / Portfolio principale</td></tr>
+        <tr><td>cv.html</td><td>Curriculum vitae stampabile</td></tr>
+        <tr><td>privacy.html</td><td>Informativa privacy form contatti</td></tr>
+        <tr><td>css/style.css</td><td>Stili portfolio</td></tr>
+        <tr><td>css/cv.css</td><td>Stili CV (ottimizzato stampa)</td></tr>
+        <tr><td>assets/img/</td><td>Immagini (foto, loghi, favicon)</td></tr>
+        <tr><td>js/contact.js</td><td>Gestione form contatti</td></tr>
+        <tr><td>progetti/demetra/</td><td>Progetto Demetra</td></tr>
+        <tr><td>progetti/greenearth/</td><td>Progetto GreenEarth</td></tr>
+      </table>
+    </section>
+
+    <section class="slide">
+      <h2>Link utili</h2>
+      <ul>
+        <li>Sito live: <a href="https://raffmilo00-byte.github.io/il-mio-porfolio/">raffmilo00-byte.github.io/il-mio-porfolio/</a></li>
+        <li>Repository: <a href="https://github.com/raffmilo00-byte/il-mio-porfolio">github.com/raffmilo00-byte/il-mio-porfolio</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/raffaele-milo">linkedin.com/in/raffaele-milo</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <p class="back"><a href="index.html">← Torna al portfolio</a></p>
+
+</body>
+</html>
