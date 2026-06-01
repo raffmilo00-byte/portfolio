@@ -96,8 +96,9 @@ a:hover {
   transition: color 0.2s;
 }
 
-.nav-links a:hover {
-  color: var(--text);
+.nav-links a:hover,
+.nav-links a.active {
+  color: #ffffff;
 }
 
 /* ── Hero ── */
