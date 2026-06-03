@@ -76,7 +76,9 @@ a:hover { color: #9cf2ff; }
 .nav a.active {
   color: #ffffff;
 }
-
+.nav a.btn {
+  color: #ffffff;
+}
 /* ── Hamburger button ── */
 .nav-toggle {
   display: none;
